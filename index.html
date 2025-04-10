@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="main-header">
+			<div class="logo">
+					<a class="logo-header" href="index.html">HotelTropicano</a>
+			</div>
+			<nav class="main-nav">
+					<ul>
+							<li><a href="#about">About us</a></li>
+							<li><a href="#rooms">Rooms</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#contact">Contacts</a></li>
+					</ul>
+			</nav>
+	</header>
+<div class="background-container">
+	<section class="welcome-section">
+		<div class="about-wrapper">
+			<div>
+			  <h1>Welcome to our hotel</h1>
+			  <a class="about-link" href="#">book a room</a>
+			  <p class="about-p">Our hotel offers comfortable rooms and first-class services. We strive to make your stay unforgettable by providing caring service and a cozy atmosphere. Enjoy your vacation in the city center, close to the main attractions.</p>
+			</div>
+			<div>
+				<picture>
+				<source media="(min-width: 1920px)" width="700" height="870" srcset="/img/hotel.png" type="image/png">
+				<source media="(min-width: 768px)" width="708" height="708" srcset="/img/hotel.png" type="image/png">
+			  <img class="about-img" src="/img/hotel.png" alt="Hotel" width="260" height="280">
+	      </picture>
+			</div>
+		</div>
+	</section>
+	<section id="rooms" class="rooms-section">
+			<h2>Our rooms</h2>
+			<div class="room-wrapper">
+			  <div class="room">
+					<picture>
+						<source media="(min-width: 1920px)" width="540" height="540" srcset="/img/room-budjet.png" type="image/png">
+						<source media="(min-width: 768px)" width="708" height="708" srcset="/img/room-budjet.png" type="image/png">
+						<img class="room-img" src="/img/room-budjet.png" alt="Hotel" width="260" height="260">
+					</picture>
+				  	<h3 class="room-title">Standard Room</h3>
+				  	<p class="room-description">A cozy room with one double bed, equipped with everything necessary for a comfortable stay.</p>
+						<button class="room-button" type="submit">book a room</button>
+			  </div>
+			  <div class="room">
+					<picture>
+						<source media="(min-width: 1920px)" width="300" height="300" srcset="/img/room-lux.png" type="image/png">
+						<source media="(min-width: 768px)" width="300" height="300" srcset="/img/room-lux.png" type="image/png">
+						<img class="room-img" src="/img/room-lux.png" alt="Hotel" width="260" height="280">
+					</picture>
+					  <h3 class="room-title">Luxury</h3>
+					  <p class="room-description">A spacious suite with a separate living room. Perfect for a romantic getaway.</p>
+						<button class="room-button" type="submit">book a room</button>
+			  </div>
+		  </div>
+	</section>
+	<section id="contact" class="contact-section">
+		<div class="contact-wrapper">
+			<h2>Contact us</h2>
+			<form class="contact-form" method="post" action="#">
+					<label for="name" class="form-label">Name:</label>
+					  <input type="text" id="name" name="name" class="form-input" type="text" name="name" pattern="[а-яА-ЯёЁa-zA-Z\s]+" autocomplete="off" required>
+					<label for="email" class="form-label">Email:</label>
+					  <input type="email" id="email" name="email" class="form-input" required>
+					<label class="form-control">
+						<input class="form-control-input visually-hidden" type="checkbox" name="policy" required>
+						<span class="form-control-mark"></span>
+						<span class="form-control-label">I accept Privacy policy</span>
+					</label>
+					<button type="submit" class="form-button">Send</button>
+
+			</form>
+		</div>
+	</section>
+</div>
+	<footer class="main-footer">
+		<div class="footer-wrapper">
+			<div>
+		    <div class="logo-wrapper">
+			    <a class="logo-footer" href="index.html">HotelTropicano</a>
+	      </div>
+			  <div>
+			    <p>&copy; 2023 Our hotel. All rights reserved.</p>
+		    </div>
+			<div class="footer-container">
+			  <div class="footer-nav-list">
+			    <ul class="footer-nav">
+					  <li><a href="#about">About us</a></li>
+					  <li><a href="#rooms">Rooms</a></li>
+					  <li><a href="#services">Services</a></li>
+					  <li><a href="#contact">Contacts</a></li>
+			    </ul>
+		    </div>
+				<div class="footer-social social">
+          <ul class="social-list">
+            <li class="social-item">
+              <a class="social-link social-link--instagram" href="#">
+                <span class="visually-hidden">Мы в Инстаграме</span>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link social-link--youtube" href="#">
+                <span class="visually-hidden">Мы в Ютубе</span>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link social-link--telegram" href="#">
+                <span class="visually-hidden">Мы в Телеграме</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
