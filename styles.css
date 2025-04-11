@@ -210,6 +210,7 @@ body {
 		color: #222222;
 		position: absolute;
 		bottom: 20px;
+		cursor: pointer;
 
 		&:hover {
 			background-color: rgb(6, 82, 56);
@@ -412,8 +413,19 @@ footer {
 }
 
 .form-control {
-	width: 10px;
-	height: 10px;
+	margin-top: 15px;
+	width: 280px;
+	height: 30px;
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+}
+
+.form-control-input {
+	width: 15px;
+	height: 15px;
+	margin: 0;
+	margin-top: 3px;
 }
 
 .form-control-label {
@@ -421,8 +433,13 @@ footer {
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 150%;
-	width: 100px;
-	color: #ffffff;
+	width: 150px;
+	display: block;
+	color: #222222;
+}
+
+.form-img {
+	display: none;
 }
 
 .form-button {
@@ -436,6 +453,7 @@ footer {
 	font-weight: 400;
 	line-height: 150%;
 	color: #ffffff;
+	margin-top: 15px;
 	background-color: #282829;
 
 	&:hover {
@@ -446,6 +464,71 @@ footer {
 }
 
 @media  (min-width: 768px) {
+	.contact-wrapper {
+		width: 708px;
+		padding: 20px;
+	}
+
+	.contact-section {
+		min-width: 768px;
+	
+		h2 {
+			font-size: 35px;
+		}
+	}
+
+	.contact-form {
+		width: 340px;
+	}
+
+	.contact-wrapper {
+		display: flex;
+		gap: 30px;
+	}
+	
+	.form-label {
+		font-size: 18px;
+		width: 340px;
+	}
+	
+	.form-input {
+		width: 340px;
+		height: 45px;
+		border: 1px solid #d5c9be;
+		cursor: pointer;
+	}
+	
+	.form-input:hover {
+		opacity: 0.6;
+	}
+	
+	.form-control {
+		display: flex;
+		gap: 15px;
+	}
+	
+	.form-control-input {
+		width: 18px;
+		height: 18px;
+		margin-top: 4px;
+	}
+	
+	.form-control-label {
+		font-size: 16px;
+		width: 160px;
+	}
+	
+	.form-img {
+		display: block;
+	}
+	
+	.form-button {
+		width: 340px;
+		min-height: 30px;
+		font-size: 23px;
+		padding: 7px;
+	}
+
 	.footer-container {
 		display: flex;
 		flex-wrap: wrap;
@@ -550,6 +633,68 @@ footer {
 }
 
 @media (min-width: 1920px) {
+	.contact-wrapper {
+		width: 1300px;
+		margin: 0;
+		margin-left: 162px;
+		padding: 30px;
+	}
+
+	.contact-section {
+		min-width: 1300px;
+	
+		h2 {
+			font-size: 40px;
+			width: 300px;
+		}
+	}
+
+	.contact-form {
+		width: 600px;
+	}
+
+	.contact-wrapper {
+		display: flex;
+		gap: 160px;
+	}
+	
+	.form-label {
+		font-size: 30px;
+		width: 700px;
+	}
+	
+	.form-input {
+		width: 700px;
+		height: 60px;
+		border: 1px solid #d5c9be;
+		cursor: pointer;
+		margin-top: 20px;
+	}
+	
+	.form-control {
+		display: flex;
+		gap: 20px;
+	}
+	
+	.form-control-input {
+		width: 24px;
+		height: 24px;
+		margin-top: 3px;
+	}
+	
+	.form-control-label {
+		font-size: 20px;
+		width: 200px;
+	}
+	
+	.form-button {
+		width: 700px;
+		min-height: 70px;
+		font-size: 28px;
+		padding: 15px;
+		margin-top: 30px;
+	}
+
 	.rooms-section {
 		width: 1771px;
 		padding: 0 0 50px 162px;
@@ -561,7 +706,7 @@ footer {
 		}
 	}
 	.room-wrapper {
-		gap: 20px;
+		gap: 100px;
 		width: 1700px;
 		justify-content: left;
 

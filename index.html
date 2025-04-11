@@ -64,20 +64,29 @@
 	</section>
 	<section id="contact" class="contact-section">
 		<div class="contact-wrapper">
-			<h2>Contact us</h2>
-			<form class="contact-form" method="post" action="#">
+			<div>
+			  <h2>Contact us</h2>
+			  <form class="contact-form" method="post" action="#">
+				
 					<label for="name" class="form-label">Name:</label>
 					  <input type="text" id="name" name="name" class="form-input" type="text" name="name" pattern="[а-яА-ЯёЁa-zA-Z\s]+" autocomplete="off" required>
 					<label for="email" class="form-label">Email:</label>
 					  <input type="email" id="email" name="email" class="form-input" required>
 					<label class="form-control">
-						<input class="form-control-input visually-hidden" type="checkbox" name="policy" required>
-						<span class="form-control-mark"></span>
+						<input class="form-control-input" type="checkbox" name="policy" required>
 						<span class="form-control-label">I accept Privacy policy</span>
 					</label>
 					<button type="submit" class="form-button">Send</button>
+				</form>
+      </div>
+				<div>
+					<picture>
+						<source media="(min-width: 1920px)" width="480" height="480" srcset="img/form.png" type="image/png">
+						<source media="(min-width: 768px)" width="300" height="335" srcset="img/form.png" type="image/png">
+						<img class="form-img" src="img/form.png" alt="Hotel" width="260" height="280">
+					</picture>
+				</div>
 
-			</form>
 		</div>
 	</section>
 </div>
