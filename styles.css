@@ -154,12 +154,16 @@ body {
 	margin: 0 auto;
 	background-color: #282829;
 	padding-bottom: 40px;
+
+	h2 {
+		margin: 60px 0 40px 0;
+	}
 }
 
 .room-wrapper {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 20px;
+	gap: 40px;
 
 	.room {
     width: 280px;
@@ -378,7 +382,8 @@ footer {
 .contact-section {
 	min-width: 320px;
 	border-radius: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+	padding-top: 40px;
 
 	h2 {
 		font-family: "Prata", sans-serif;
@@ -611,6 +616,12 @@ footer {
 		}
 	}
 
+.rooms-section {
+	h2 {
+		margin: 80px 0 50px 0;
+	}
+}
+
 .room-wrapper {
 		gap: 20px;
 		justify-content: space-between;
@@ -760,6 +771,7 @@ footer {
 
 	.contact-section {
 		min-width: 1300px;
+		padding: 100px 0;
 	
 		h2 {
 			font-size: 40px;
@@ -820,7 +832,7 @@ footer {
 
 		h2 {
 			font-size: 60px;
-			margin-bottom: 80px;
+			margin: 130px 0 80px 0;
 		}
 	}
 	.room-wrapper {
