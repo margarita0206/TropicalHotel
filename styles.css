@@ -679,6 +679,44 @@ footer {
 	}
 }
 
+@media (max-width: 767px) {
+	.menu-icon .menu-img {
+		outline: #ffffff;
+	}
+	
+	.dropdown-menu {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    background-color: #ffffff;
+    min-width: 100%;
+    display: none;
+    z-index: 1000;
+  }
+
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 20px;
+		border-top: 1px solid #222222;
+  }
+
+  .dropdown-menu ul li {
+    margin: 15px 0;
+  }
+
+  .dropdown-menu ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .close-icon {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    cursor: pointer;
+  } 
+}
+
 @media (min-width: 1920px) {
 	.main-footer {
 		min-width: 1600px;
