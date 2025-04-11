@@ -356,14 +356,14 @@ body {
 }
 
 footer {
-	.social-item {
+  .social-item {
 		height: 30px;
 		width: 30px;
 	}
 
 	.social-list {
-		width: 150px;
-		height: 30px;
+	  width: 150px;
+	  height: 30px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -1019,7 +1019,6 @@ footer {
 		.about-wrapper {
 			margin: 0;
 		}
-
 		
 	  .about-link {
 		  width: 200px;
