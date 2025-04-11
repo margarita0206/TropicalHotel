@@ -333,21 +333,21 @@ body {
 .social-link--telegram::before {
 	width: 30px;
 	height: 30px;
-  mask-image: url("/img/telegram.svg");
+  mask-image: url("img/telegram.svg");
 	background-color: #ffffff;
 }
 
 .social-link--instagram::before {
 	width: 30px;
 	height: 30px;
-  mask-image: url("/img/instagram.svg");
+  mask-image: url("img/instagram.svg");
 	background-color: #ffffff;
 }
 
 .social-link--youtube::before {
 	width: 30px;
 	height: 30px;
-  mask-image: url("/img/youtube.svg");
+  mask-image: url("img/youtube.svg");
 	background-color: #ffffff;
 }
 
