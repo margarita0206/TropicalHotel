@@ -419,6 +419,7 @@ footer {
 	display: flex;
 	gap: 10px;
 	flex-direction: row;
+
 }
 
 .form-control-input {
@@ -426,6 +427,7 @@ footer {
 	height: 15px;
 	margin: 0;
 	margin-top: 3px;
+	cursor: pointer;
 }
 
 .form-control-label {
@@ -464,6 +466,40 @@ footer {
 }
 
 @media  (min-width: 768px) {
+  .main-footer {
+		min-width: 768px;
+		padding: 35px 30px;
+	
+		p {
+			font-size: 13px;
+			width: 220px;
+			margin-bottom: 35px;
+		}
+	
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+	
+		li {
+			font-size: 18px;
+			width: auto;
+		}
+	}
+	
+	.footer-nav {
+		width: 380px;
+	}
+	
+	.footer-nav-list {
+		width: 380px;
+	}
+	
+	.logo-footer {
+		font-size: 19px;
+		width: 100px;
+	}
+
 	.contact-wrapper {
 		width: 708px;
 		padding: 20px;
@@ -633,6 +669,88 @@ footer {
 }
 
 @media (min-width: 1920px) {
+	.main-footer {
+		min-width: 1600px;
+		padding: 60px 460px 60px 162px;
+	
+		p {
+			font-size: 16px;
+			width: 270px;
+			margin-bottom: 50px;
+		}
+	
+		li {
+			font-size: 25px;
+			width: auto;
+		}
+	}
+	
+	.footer-nav {
+		width: 450px;
+	}
+	
+	.footer-nav-list {
+		width: 450px;
+	}
+	
+	.logo-footer {
+		font-size: 30px;
+		width: 150px;
+	}
+
+	.social-link {
+		display: block;
+		width: 50px;
+		height: 50px;
+	}
+	
+	.social-link::before {
+			width: 50px;
+			height: 50px;
+	}
+	
+	.social-link--telegram::before {
+		width: 50px;
+		height: 50px;
+		mask-image: url("/img/telegram.svg");
+		background-color: #ffffff;
+		mask-size: 50px 50px;
+	}
+	
+	.social-link--instagram::before {
+		width: 50px;
+		height: 50px;
+		mask-image: url("/img/instagram.svg");
+		background-color: #ffffff;
+		mask-size: 50px 50px;
+	}
+	
+	.social-link--youtube::before {
+		width: 50px;
+		height: 50px;
+		mask-image: url("/img/youtube.svg");
+		background-color: #ffffff;
+		background-position: center;
+		mask-size: 50px 50px;
+	}
+
+	.footer-social {
+		width: 210px;
+	}
+	
+	footer {
+		.social-item {
+			height: 50px;
+			width: 50px;
+		}
+	
+		.social-list {
+			width: 170px;
+			height: 50px;
+			gap: 30px;
+		}
+	}
+
 	.contact-wrapper {
 		width: 1300px;
 		margin: 0;
